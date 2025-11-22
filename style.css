@@ -1,0 +1,62 @@
+/* ===== FONT & RESET ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-body {
+    background: linear-gradient(120deg, #00b4db, #0083b0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* BUTTON UMUM */
+button, .btn-next, .btn-logout {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ffdd00;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* ===== DASHBOARD ===== */
+.dashboard-body {
+    background: linear-gradient(120deg, #ff512f, #ff4d4d);
+    padding-top: 80px;
+    color: white;
+}
+
+.dashboard-box {
+    width: 600px;
+    margin: auto;
+    background: rgba(0,0,0,0.3);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
